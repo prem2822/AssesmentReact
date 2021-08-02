@@ -1,0 +1,79 @@
+.ticker {
+  display: flex;
+  color: black;
+  background-color: lightgrey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.ticker__icon__holder {
+  margin: 1.5rem 0;
+}
+
+.ticker__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.ticker__items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 98%;
+  justify-content: space-around;
+}
+
+.ticker__items > div {
+  margin: 0.1rem;
+  padding: 0;
+  /* border: black 0.1rem solid; */
+  width: 48%;
+}
+
+.ticker__items > div:nth-of-type(2n) {
+  text-align: right;
+}
+
+.ticker__items > div:nth-of-type(2n + 1) {
+  text-align: left;
+}
+.ticker__items > div:nth-of-type(1) {
+  font-size: large;
+}
+.ticker__items > div:nth-of-type(2) {
+  font-size: large;
+}
+
+.arrow-up {
+  margin-top: 0.5rem;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid green;
+}
+
+.arrow-down {
+  margin-top: 0.6rem;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid red;
+}
+
+.soft_text {
+  color: grey;
+}
+
+.trade_percent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.trade_percent--bid {
+  color: green;
+}
+
+.trade_percent--ask {
+  color: red;
+}

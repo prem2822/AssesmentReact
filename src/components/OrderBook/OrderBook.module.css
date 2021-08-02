@@ -1,0 +1,7 @@
+.orderBook__body {
+  display: flex;
+  flex-flow: row;
+}
+
+.orderBook__body div {
+}

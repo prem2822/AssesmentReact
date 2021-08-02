@@ -1,0 +1,56 @@
+.orderBookDetail {
+  width: 50%;
+}
+
+.orderBookDetail__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 0.5rem;
+  margin: 0;
+}
+
+.orderBookDetail__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 0.5rem;
+  margin: 0;
+}
+
+.orderBookDetail__header--bid {
+  flex-flow: row;
+  background-color: lightgreen;
+}
+
+.orderBookDetail__header--ask {
+  flex-flow: row-reverse;
+  background-color: lightsalmon;
+}
+
+.orderBookDetail__header div {
+  /* border: 1px solid red; */
+  width: 25%;
+  text-align: center;
+}
+
+.orderBookDetail__body {
+}
+
+.orderBookDetail__items {
+  list-style: none;
+  margin: 0.1rem 0;
+  padding-left: 0;
+  text-align: right;
+  font-size: 0.45rem;
+}
+
+.orderBookDetail__items--bid li {
+  background-color: lightgreen;
+  flex-flow: row;
+}
+
+.orderBookDetail__items--ask li {
+  background-color: lightsalmon;
+  flex-flow: row-reverse;
+}
